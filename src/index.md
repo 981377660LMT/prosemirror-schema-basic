@@ -50,7 +50,6 @@ export const nodes = {
 - **`paragraph`**:
 
   ```typescript
-  // filepath: /Users/bytedance/coding/pm/prosemirror-schema-basic/src/schema-basic.ts
   // ...existing code...
   paragraph: {
     content: "inline*",
@@ -69,7 +68,6 @@ export const nodes = {
 - **`heading`**:
 
   ```typescript
-  // filepath: /Users/bytedance/coding/pm/prosemirror-schema-basic/src/schema-basic.ts
   // ...existing code...
   heading: {
     attrs: {level: {default: 1}},
@@ -90,7 +88,6 @@ export const nodes = {
 
 - **`code_block`**:
   ```typescript
-  // filepath: /Users/bytedance/coding/pm/prosemirror-schema-basic/src/schema-basic.ts
   // ...existing code...
   code_block: {
     content: "text*",
@@ -128,7 +125,6 @@ export const nodes = {
 - **`link`**:
 
   ```typescript
-  // filepath: /Users/bytedance/coding/pm/prosemirror-schema-basic/src/schema-basic.ts
   // ...existing code...
   link: {
     attrs: {
@@ -147,7 +143,6 @@ export const nodes = {
 
 - **`em` (斜体) 和 `strong` (加粗)**:
   ```typescript
-  // filepath: /Users/bytedance/coding/pm/prosemirror-schema-basic/src/schema-basic.ts
   // ...existing code...
   strong: {
     parseDOM: [
